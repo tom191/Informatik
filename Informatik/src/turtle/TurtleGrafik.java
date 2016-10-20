@@ -170,6 +170,12 @@ public class TurtleGrafik extends JFrame {
 	
 	private void aufg3() {
 		// Aufgabe 3
+		int sechs = 0;
+		while(sechs < 6){
+			t.vor(100);
+			t.drehen(-60);
+			sechs += 1;
+		}
 		
 	}
 	
