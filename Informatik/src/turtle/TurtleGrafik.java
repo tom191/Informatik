@@ -153,7 +153,19 @@ public class TurtleGrafik extends JFrame {
 	
 	private void aufg2() {
 		// Aufgabe 2
-		
+		int zaehler = 0;
+		while (zaehler < 15) {
+			zaehler++; // zaehler = zaehler +1;
+			t.vor(200);
+			t.drehen(90);
+			
+		}
+		t.drehen(45);
+		t.vor(282.843);
+		t.drehen(135);
+		t.vor(200);
+		t.drehen(135);
+		t.vor(282.843);
 	}
 	
 	private void aufg3() {
