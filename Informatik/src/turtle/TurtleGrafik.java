@@ -189,9 +189,20 @@ public class TurtleGrafik extends JFrame {
 	
 	private void aufg5() {
 		// Aufgabe 5
-		
-	}
+		for(int b = 0; b < 15; b++){
+			t.vor(10);
+			t.drehen(-90);
+			t.vor(10);
+			t.drehen(90);
 	
+		}
+		for (int b = 0; b < 15; b++){
+		t.vor(10);
+		t.drehen(90);
+		t.vor(10);
+		t.drehen(-90);
+	}
+	}
 	private void aufg6() {
 		// Aufgabe 6
 		
