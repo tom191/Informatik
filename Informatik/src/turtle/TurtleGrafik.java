@@ -205,13 +205,31 @@ public class TurtleGrafik extends JFrame {
 	}
 	private void aufg6() {
 		// Aufgabe 6
-		
+	int laenge = 15;
+	for(int l= 0; l < 64; l++){
+	t.vor(laenge);
+	t.drehen(-90);
+	laenge = laenge + laenge/15;
+	}
+	
+	}
+	
+	public void quadrat(double laenge){
+		for(int q = 0; q < 4; q++){
+		t.vor(laenge);
+		t.drehen(90);
+		}
 	}
 	
 	private void aufg7() {
 		// Aufgabe 7
-		
+		double laenge = 4.0;
+		for(int d = 0; d < 22; d++){
+			quadrat(laenge);
+			laenge = laenge + laenge/4;
+		}
 	}
+	public void sechseck()
 	
 	private void aufg8() {
 		// Aufgabe 8
