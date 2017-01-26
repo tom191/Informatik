@@ -229,7 +229,10 @@ public class TurtleGrafik extends JFrame {
 			laenge = laenge + laenge/4;
 		}
 	}
-	public void sechseck()
+	public void sechseck() {
+		
+	
+	}
 	
 	private void aufg8() {
 		// Aufgabe 8
